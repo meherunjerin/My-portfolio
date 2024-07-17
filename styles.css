@@ -1,0 +1,335 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+}
+.logo {
+    font-size: 24px;
+    color: #f90;
+}
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+nav a.download-cv {
+    background-color: #f90;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.jerin {
+    display: flex;
+    align-items: center;
+    padding: 50px 20px;
+}
+.jerin-content {
+    flex: 1;
+}
+.jerin h1 {
+    font-size: 48px;
+}
+.jerin h2 {
+    font-size: 36px;
+    color: #f90;
+}
+.jerin p {
+    margin: 20px 0;
+}
+.skills {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+.skills div {
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+.buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buttons .portfolio-btn {
+    background-color: #f90;
+    color: #fff;
+}
+.buttons .hire-btn {
+    background-color: #fff;
+    color: #000;
+}
+.social{
+    margin-top: 30px;
+}
+.jerin-image img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.about-me {
+    padding: 50px 20px;
+    background-color: #222;
+}
+.about-me-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-me-text {
+    flex: 2;
+}
+.experience {
+    flex: 1;
+    text-align: center;
+}
+.experience .stars {
+    font-size: 24px;
+    color: #f90;
+}
+.experience .years {
+    font-size: 36px;
+    margin-top: 10px;
+}
+.experience-section, .awards-section {
+    padding: 50px 20px;
+}
+.experience-content, .awards-list {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+.experience-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.experience-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.experience-list {
+    margin-top: 20px;
+}
+.experience-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #444;
+    padding: 10px 0;
+}
+.awards-section h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.awards-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.award-item {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+.award-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.award-category {
+    text-align: right;
+    color: #f90;
+}
+.portfolio-section {
+    padding: 50px 20px;
+    background-color: #111;
+}
+
+.portfolio-section h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.portfolio-section p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.portfolio-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.portfolio-tabs .tab {
+    background-color: #222;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.portfolio-tabs .tab.active {
+    background-color: #f90;
+}
+
+.portfolio-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.portfolio-categories{
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.case-study {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.case-study h3 {
+    font-size: 24px;
+    color: #f90;
+    margin-bottom: 10px;
+}
+
+.case-study h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.case-study p {
+    margin-bottom: 10px;
+}
+
+
+.case-study-image img {
+    height: 330px;
+    border-radius: 10px;
+}
+    
+.contact-section {
+    padding: 50px 20px;
+    background-color: #f90;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-section h2 {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-section h3 {
+    font-size: 36px;
+    margin: 10px 0 20px;
+}
+
+.contact-form {
+    background-color: #f90;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.contact-form h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.file-upload-label {
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+.file-upload-text {
+    text-decoration: underline;
+}
+
+#file-upload {
+    display: none;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #111;
+    color: #fff;
+    cursor: pointer;
+}
+
+.additional-section {
+    padding: 50px 20px;
+    background-color: #000; 
+    color: #fff; 
+    text-align: center; 
+}
+
+.additional-section .additional-content {
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+.additional-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.additional-section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+.additional-option{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.social-contact-logo{
+   margin-top: 50px;
+
+}
+
